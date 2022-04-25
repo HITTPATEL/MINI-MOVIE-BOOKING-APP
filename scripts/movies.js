@@ -15,7 +15,7 @@ output.innerHTML=sum
 
 function myFun(){
     let input=document.querySelector("#search").value; 
-    const url=`http://www.omdbapi.com/?apikey=d9edf37f&s=${input}`
+    const url=`https://www.omdbapi.com/?apikey=d9edf37f&s=${input}`
     fetch(url)
     .then(function(res){
         return res.json();
