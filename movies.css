@@ -1,0 +1,14 @@
+#navbar{
+    display: flex;
+    justify-content: space-between;
+}
+#movies{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap:20px;
+}
+#search_bar{
+    display: flex;
+    justify-content: center;
+}
